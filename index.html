@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eightey — The internet, reimagined through AI</title>
+<link rel="icon" href="assets/logo-placeholder.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Ambient background -->
+  <div class="aurora">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="blob blob-c"></div>
+  </div>
+  <div class="noise"></div>
+
+  <!-- Floating Nav -->
+  <nav class="navbar glass">
+    <a href="/" class="nav-logo">
+      <img src="assets/logo-placeholder.svg" alt="Eightey logo" class="logo-img" />
+      <span class="logo-text">eightey</span>
+    </a>
+    <div class="nav-links">
+      <a href="/#about">About</a>
+      <a href="/#services">Services</a>
+      <a href="/#projects">Projects</a>
+      <a href="aboutus.html">Team</a>
+      <a href="/#contact">Contact</a>
+    </div>
+    <a href="/#contact" class="nav-cta glass-pill">
+      <span class="cta-dot"></span>
+      Let's talk
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="status-pill glass-pill">
+      <span class="status-dot"></span>
+      Available for new projects
+    </div>
+    <h1 class="hero-title">eightey</h1>
+    <p class="hero-tagline">The internet, reimagined through AI.</p>
+    <div class="hero-actions">
+      <a href="/#projects" class="btn btn-primary glass-pill">
+        View Projects
+      </a>
+      <a href="/#contact" class="btn btn-secondary glass-pill">
+        Get in Touch
+      </a>
+    </div>
+    <a href="/#about" class="scroll-indicator" aria-label="Scroll down">
+      <span>scroll</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="about-panel glass">
+      <p class="eyebrow">About Us</p>
+      <h2>Est. 2023 · Discord Architecture, Web Development, Automation</h2>
+      <p class="about-text">
+        We specialize in building high-performance Discord communities from the ground up.
+        With over 200 servers designed and deployed, and 3+ years of hands-on experience,
+        we understand what makes a server functional, scalable, and engaging.
+      </p>
+      <p class="about-text">
+        In addition to server architecture, we bring over a year of development experience
+        in HTML, Python, and Discord bot development. From small utility bots to fully
+        custom-coded websites, we deliver lightweight, effective solutions tailored to real needs.
+      </p>
+
+      <h3 class="about-subhead">What we offer</h3>
+      <ul class="about-list">
+        <li>Custom Discord server builds — structure, permissions, roles, automation</li>
+        <li>Python-powered Discord bots for moderation, fun, or utility</li>
+        <li>Simple, clean websites using HTML/CSS</li>
+        <li>Integration between web platforms and Discord communities</li>
+      </ul>
+
+      <p class="about-text about-mission">
+        <strong>Mission:</strong> To help creators, gamers, and businesses turn their Discord
+        servers into thriving, well-organized digital hubs — backed by reliable code and smart design.
+      </p>
+      <p class="about-closing">Let's build something solid.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Services</p>
+      <h2>Where intelligence meets interface</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card glass">
+        <div class="card-icon">✦</div>
+        <h3>AI-Native Apps</h3>
+        <p>Full-stack products built around language models from day one — not bolted on as an afterthought.</p>
+      </article>
+      <article class="card glass">
+        <div class="card-icon">◇</div>
+        <h3>Automation &amp; Agents</h3>
+        <p>Custom agents and workflows that handle the repetitive work, freeing teams to focus on what matters.</p>
+      </article>
+      <article class="card glass">
+        <div class="card-icon">⬡</div>
+        <h3>Web Experiences</h3>
+        <p>Fast, modern interfaces with thoughtful motion and a design language that feels alive.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Skills</p>
+      <h2>Tools of the trade</h2>
+    </div>
+    <div class="grid grid-4">
+      <div class="skill-pill glass">Discord Architecture</div>
+      <div class="skill-pill glass">Python</div>
+      <div class="skill-pill glass">Discord.py / Bots</div>
+      <div class="skill-pill glass">HTML &amp; CSS</div>
+      <div class="skill-pill glass">Automation</div>
+      <div class="skill-pill glass">Server Permissions &amp; Roles</div>
+      <div class="skill-pill glass">AI Integrations</div>
+      <div class="skill-pill glass">Community Management</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card glass project-card">
+        <div class="project-thumb"></div>
+        <h3>NachDenken</h3>
+        <p>A free Discord AI bot — bring intelligent, conversational AI into your server at no cost.</p>
+        <a href="https://discord.gg/xrCfhbhmh9" class="card-link" target="_blank" rel="noopener">Join on Discord →</a>
+      </article>
+      <article class="card glass project-card">
+        <div class="project-thumb"></div>
+        <h3>Authix</h3>
+        <p>An all-in-one Discord security &amp; verification bot, built to keep communities safe and spam-free.</p>
+        <a href="https://discord.gg/xrCfhbhmh9" class="card-link" target="_blank" rel="noopener">Join on Discord →</a>
+      </article>
+      <article class="card glass project-card">
+        <div class="project-thumb"></div>
+        <h3>Denken AI <span class="badge">Coming Soon</span></h3>
+        <p>A free daily AI assistant designed to help you plan, organize, and get things done.</p>
+        <a href="/#" class="card-link">Learn more →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="contact-panel glass">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's build something intelligent.</h2>
+      <p class="contact-text">Have a project in mind, or just want to talk about what AI can do for your product? Reach out.</p>
+      <div class="contact-actions">
+        <a href="mailto:eightey@proton.me" class="btn btn-primary glass-pill">Email Me</a>
+        <a href="https://discord.gg/xrCfhbhmh9" class="btn btn-secondary glass-pill" target="_blank" rel="noopener">Join Discord</a>
+        <a href="aboutus.html" class="btn btn-secondary glass-pill">Meet the Team</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Eightey. Built with curiosity and a lot of coffee.</p>
+  </footer>
+
+</body>
+</html>
